@@ -1,0 +1,13 @@
+{
+  "name": "arabic-voice-ready",
+  "version": "0.1.0",
+  "description": "Make Arabic (Egyptian / MSA) voiceover scripts TTS-ready: numbers, prices, dates, loanwords, ElevenLabs tags. Agent Skill + zero-dependency CLI.",
+  "type": "module",
+  "main": "scripts/normalize.mjs",
+  "bin": { "arabic-voice-ready": "scripts/normalize.mjs" },
+  "scripts": { "test": "node --test scripts/normalize.test.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["arabic", "egyptian-arabic", "tts", "text-to-speech", "elevenlabs", "voiceover", "agent-skill", "claude-code", "rtl"],
+  "author": "Ahmed Hendawy",
+  "license": "MIT"
+}
